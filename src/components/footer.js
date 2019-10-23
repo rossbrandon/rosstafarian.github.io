@@ -48,7 +48,14 @@ const Footer = () => {
             <Box>
               <FooterText>
                 <h4>
-                  Made with <a href="https://www.gatsbyjs.org/">GatsbyJS</a>
+                  Made with{' '}
+                  <a
+                    href="https://www.gatsbyjs.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GatsbyJS
+                  </a>
                 </h4>
               </FooterText>
             </Box>
