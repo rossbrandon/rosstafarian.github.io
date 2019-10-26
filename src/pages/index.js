@@ -94,11 +94,10 @@ const Section = styled.div`
     props.center &&
     css`
       text-align: left;
-      & > * {
-        margin-left: 30vw;
-      }
-      h4 {
-        margin-left: 20vw;
+
+      h4,
+      span {
+        text-align: center;
       }
 
       ${media.xs`
@@ -116,7 +115,6 @@ const Section = styled.div`
         color: #eee;
       }
       span {
-        text-align: left;
         font-size: 16px;
         line-height: 28px;
         font-weight: 400;
@@ -220,7 +218,8 @@ export default () => {
               architecture and development. <br /> In 2011 I started working as
               a full-stack developer at Hewlett-Packard in Austin, TX working
               with Java, Javascript, SQL Server, and Linux. <br /> In 2017, I
-              took a new opportunity working with the e-commerce platform{' '}
+              began a new opportunity working with the popular e-commerce
+              platform{' '}
               <a
                 href="https://magento.com"
                 target="_blank"
@@ -228,7 +227,7 @@ export default () => {
               >
                 Magento
               </a>{' '}
-              writing backend PHP REST APIs. <br /> I currently work as a senior
+              writing backend REST APIs. <br /> I currently work as a senior
               software engineer with{' '}
               <a
                 href="https://adobe.com"

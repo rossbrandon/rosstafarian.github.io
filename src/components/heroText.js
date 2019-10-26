@@ -17,13 +17,15 @@ const StyledTypist = styled(Typist)`
   top: 50%;
   left: 45%;
   ${media.md`
-    left: 10%;
+    left: 5%;
     top: 40%;
+    font-size: 65px;
   `}
   ${media.xs`
     left: 3%;
     top: 15%;
     letter-spacing: 12px;
+    font-size: 53px;
   `}
 `
 
