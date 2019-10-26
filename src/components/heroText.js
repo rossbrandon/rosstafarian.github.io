@@ -23,7 +23,7 @@ const StyledTypist = styled(Typist)`
   `}
   ${media.xs`
     left: 3%;
-    top: 15%;
+    top: 40%;
     letter-spacing: 12px;
     font-size: 53px;
   `}
