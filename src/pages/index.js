@@ -243,9 +243,9 @@ export default () => {
           </Box>
         </Flex>
       </Section>
-      <a id="portfolio">Portfolio</a>
+      {/* <a id="portfolio">Portfolio</a>
       <Title small>Portfolio</Title>
-      <Portfolio items={portfolio} />
+      <Portfolio items={portfolio} /> */}
       <a id="experience">Experience</a>
       <Section center dark>
         <h4>Experience</h4>
