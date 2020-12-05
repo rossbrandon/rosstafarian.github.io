@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import FontAwesome from 'react-fontawesome'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Icon = ({ name, href }) => (
-  <a href={href} target="_blank" rel="noopener noreferrer">
+  <OutboundLink href={href} target="_blank" rel="noopener noreferrer">
     <FontAwesome name={name} />
-  </a>
+  </OutboundLink>
 )
 
 const Base = styled.div`
