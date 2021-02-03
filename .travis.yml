@@ -6,9 +6,6 @@ cache: npm
 install:
     - npm install
 
-before_script:
-    - npm install -g gatsby
-
 script:
     - npm run build
 
