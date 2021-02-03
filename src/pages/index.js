@@ -236,8 +236,8 @@ export default () => {
                             based commerce.
                         </p>
                         <p>
-                            I currently reside happily as engineering team lead
-                            for the Product Recommendations project with{' '}
+                            I currently and happily reside as engineering team
+                            lead for the Product Recommendations project with{' '}
                             <a
                                 href="https://adobe.com/commerce/magento.html"
                                 target="_blank"
