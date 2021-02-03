@@ -6,18 +6,18 @@ import Button from '../components/button'
 import HeroText from '../components/heroText'
 
 const HomeButton = styled(Button)`
-  position: absolute;
-  bottom: 35%;
-  left: 20%;
+    position: absolute;
+    bottom: 35%;
+    left: 20%;
 `
 
 const PageNotFound = () => (
-  <Layout>
-    <HomeButton opaque light onClick={() => navigate('/')}>
-      Return To Home Page
-    </HomeButton>
-    <HeroText text="404 Page Not Found" />
-  </Layout>
+    <Layout>
+        <HomeButton opaque light onClick={() => navigate('/')}>
+            Return To Home Page
+        </HomeButton>
+        <HeroText text="404 Page Not Found" />
+    </Layout>
 )
 
 export default PageNotFound

@@ -18,42 +18,37 @@ const Base = styled.a`
   }
 
   ${props =>
-    props.dark &&
-    css`
-      color: #444;
-    `}
+      props.dark &&
+      css`
+          color: #444;
+      `}
 
   ${props =>
-    props.block &&
-    css`
-      display: block;
-    `}
+      props.block &&
+      css`
+          display: block;
+      `}
 
   ${props =>
-    props.small &&
-    css`
-      font-size: 1em;
-    `}
+      props.small &&
+      css`
+          font-size: 1em;
+      `}
 
   ${props =>
-    props.big &&
-    css`
-      font-size: 2em;
-    `}
+      props.big &&
+      css`
+          font-size: 2em;
+      `}
 `
 
 const Name = props => {
-  return (
-    <Base
-      dark={props.dark}
-      small={props.small}
-      big={props.big}
-      block={props.block}
-      href="/"
-    >
-      Ross Brandon
-    </Base>
-  )
+    const { dark, small, big, block } = props
+    return (
+        <Base dark={dark} small={small} big={big} block={block} href="/">
+            Ross Brandon
+        </Base>
+    )
 }
 
 export default Name

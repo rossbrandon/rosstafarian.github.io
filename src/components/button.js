@@ -27,42 +27,42 @@ const Button = styled.button`
   }
 
   ${props =>
-    props.dark &&
-    css`
-      color: #949494;
-      border-color: #949494;
-      &:hover {
-        color: #fff;
-        background-color: #949494;
-      }
-    `}
+      props.dark &&
+      css`
+          color: #949494;
+          border-color: #949494;
+          &:hover {
+              color: #fff;
+              background-color: #949494;
+          }
+      `}
 
   ${props =>
-    props.light &&
-    css`
-      color: #ddd;
-      border-color: #ddd;
-    `}
+      props.light &&
+      css`
+          color: #ddd;
+          border-color: #ddd;
+      `}
 
   ${props =>
-    props.opaque &&
-    css`
-      background: none;
-      &:hover {
-        background-color: transparent;
-        color: #fff;
-        border-color: #fff;
-      }
-    `}
+      props.opaque &&
+      css`
+          background: none;
+          &:hover {
+              background-color: transparent;
+              color: #fff;
+              border-color: #fff;
+          }
+      `}
 
   ${props =>
-    props.small &&
-    css`
-      height: 30px;
-      font-size: 11px;
-      line-height: 27px;
-      min-width: 0;
-    `}
+      props.small &&
+      css`
+          height: 30px;
+          font-size: 11px;
+          line-height: 27px;
+          min-width: 0;
+      `}
 `
 
 export default Button

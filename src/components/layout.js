@@ -13,34 +13,34 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const Body = styled.div`
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  width: 100vw;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 100vw;
 
-  img {
-    margin-bottom: 0;
-  }
+    img {
+        margin-bottom: 0;
+    }
 `
 
 const Content = styled.div`
-  flex: 1;
+    flex: 1;
 `
 
 const Layout = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+    const { title, description } = useSiteMetadata()
 
-  return (
-    <Body>
-      <GlobalStyle />
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
-      </Helmet>
-      <Content>{children}</Content>
-    </Body>
-  )
+    return (
+        <Body>
+            <GlobalStyle />
+            <Helmet>
+                <html lang="en" />
+                <title>{title}</title>
+                <meta name="description" content={description} />
+            </Helmet>
+            <Content>{children}</Content>
+        </Body>
+    )
 }
 
 export default Layout
