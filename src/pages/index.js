@@ -237,7 +237,8 @@ export default () => {
                         </p>
                         <p>
                             I currently and happily reside as engineering team
-                            lead for the Product Recommendations project with{' '}
+                            lead for the Product Recommendations project with
+                            <br />{' '}
                             <a
                                 href="https://adobe.com/commerce/magento.html"
                                 target="_blank"
