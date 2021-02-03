@@ -48,13 +48,13 @@ const Footer = () => {
                         <Box>
                             <FooterText>
                                 <h4>
-                                    Made with{' '}
+                                    Served by{' '}
                                     <a
-                                        href="https://www.gatsbyjs.org/"
+                                        href="https://www.cloudflare.com/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        GatsbyJS
+                                        Cloudflare
                                     </a>
                                 </h4>
                             </FooterText>
